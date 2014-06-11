@@ -10,7 +10,7 @@ body {
 
 header {
     position: absolute;
-    background-image: url("images/header.jpg");
+    background-image: url("../images/header.jpg");
     width: 100%;
     height: 523px;
     float: top;
@@ -97,7 +97,7 @@ header {
     /*height: 500px;*/
     margin-left: 10%;
     /*border: 2px solid blue;*/
-    position:absolute;
+    //position:absolute;
     margin-top: 523px;
     padding-top: 4%;
 }
@@ -159,7 +159,7 @@ blockquote {
     /*height: 500px;*/
     margin-right: 10%;
     /*border: 2px solid blue;*/
-    position: relative;
+    // position: relative;
     margin-top: 523px;
 }
 
@@ -222,11 +222,29 @@ blockquote {
     height: 50px;
 }*/
 
-#pleaseFoot {
-    position:absolute;
-    height:20px;
-    border: 2px solid blue;
-    float:top;
+#footer {
+    clear: both;
+    border-top: 2px solid #D3D3D3;
+    text-align: center;
+}
+
+.artPics {
+    float:left;
+
+}
+
+// #pleaseFoot {
+//     position:absolute;
+//     height:20px;
+//     border: 2px solid blue;
+//     float:top;
+// }
+
+#footerHeader {
+    font-family: 'Oswald' sans-serif;
+    font-style: none;
+    font-size: 3.65em;
+    color: #0B3551;
 }
 
 
