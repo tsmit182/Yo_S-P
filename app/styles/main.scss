@@ -222,16 +222,6 @@ blockquote {
     height: 50px;
 }*/
 
-#footer {
-    clear: both;
-    border-top: 2px solid #D3D3D3;
-    text-align: center;
-}
-
-.artPics {
-    float:left;
-
-}
 
 // #pleaseFoot {
 //     position:absolute;
@@ -240,6 +230,13 @@ blockquote {
 //     float:top;
 // }
 
+#footer {
+    clear: both;
+    border-top: 2px solid #D3D3D3;
+    text-align: center;
+}
+
+
 #footerHeader {
     font-family: 'Oswald' sans-serif;
     font-style: none;
@@ -247,6 +244,28 @@ blockquote {
     color: #0B3551;
 }
 
+.mask {
+    width: 325px;
+    height: 330px;
+    position: absolute;
+    opacity: 0.5;
+    color: #196FB1;
+    z-index: 1;
+}
+
+.artPics {
+    float:left;
+    position: relative;
+    z-index: 0;
+}
+
+#footerFooter {
+    text-align: center;
+}
+
+.navItem {
+    float:left;
+}
 
 a:link {
     color: #4886bd;
