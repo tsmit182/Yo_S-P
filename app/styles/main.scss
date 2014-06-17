@@ -234,6 +234,8 @@ blockquote {
     clear: both;
     border-top: 2px solid #D3D3D3;
     text-align: center;
+    height: 600px;
+    color: #0B3551;
 }
 
 
@@ -259,10 +261,12 @@ blockquote {
     z-index: 0;
 }
 
-// #footerFooter {
-//     width:
-//  //   text-align: center;
-// }
+#footerFooter {
+    background-color: #0B3551;
+    clear: both;
+    height: 100%;
+
+}
 
 .navItem {
     float:left;
