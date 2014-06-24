@@ -35,6 +35,7 @@ header {
     margin-top: 1%;
 }
 
+$font1: 'Open Sans', sans-serif;
 $navyish: #083451;
 
 #button1 {
@@ -87,7 +88,7 @@ $navyish: #083451;
 
 #headSub {
     text-align: center;
-    color: #083451;
+    color: $navyish;
     font-family: 'PT Sans' sans-serif;
     font-style: bold;
     padding-top: -.5%;
