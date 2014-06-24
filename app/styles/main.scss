@@ -36,17 +36,26 @@ header {
 }
 
 $font1: 'Open Sans', sans-serif;
+
+$font2: 'Oswald', sans-serif;
+
 $navyish: #083451;
+
+.navyOswald {
+    font-family: 'Oswald', sans-serif;
+    color: #083451;
+}
 
 #button1 {
     float:right;
     text-decoration: none;
-    color: $navyish;
+    // color: $navyish;
     margin-right: 20px;
     margin-top: 2%;
     font-size: 17px;
     font-style: bold;
-    font-family: 'Oswald' sans-serif;
+    // font-family: '$font2;
+    @extend .navyOswald;
 }
 
 #button2 {
@@ -66,7 +75,7 @@ $navyish: #083451;
     margin-left: 15%;
     margin-top: 2%;
     /*font-family: 'PT Sans', sans-serif;*/
-    font-family: 'Oswald', sans-serif;
+    font-family: $font2;
     color: $navyish;
     font-size: 17px;
     z-index: 2;
